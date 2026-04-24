@@ -39,10 +39,12 @@ activities = {
         "max_participants": 30,
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
     },
-    "music": {
-    "name": "Music Club",
-    "schedule": "Frydays",
-    "participants": []
+    "Music Club": {
+        "description": "Music practice and performance"
+    activities",
+    "schedule": "Fridays, 3:00 PM - 4:00 PM",
+    "max_participants":20,
+    "participants" []
     }
 }
 
