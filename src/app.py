@@ -38,6 +38,11 @@ activities = {
         "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
         "max_participants": 30,
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+    },
+    "music": {
+    "name": "Music Club",
+    "schedule": "Frydays",
+    "participants": []
     }
 }
 
@@ -70,4 +75,4 @@ if email in activity["participants"]:
     # Add student
     activity["participants"].append(email)
     return {"message": f"Signed up {email} for {activity_name}"}
-# TODO: evitar que un estudiante se registre varias veces en la misma actividad
+
